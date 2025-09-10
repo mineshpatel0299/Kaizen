@@ -36,24 +36,16 @@ const Faqs = () => {
 
   return (
     <>
-      <div className="max-w-3/4 mx-auto px-4 py-10 text-center" data-aos="fade-up">
+      <div className="max-w-3/4 mx-auto px-4 py-10 text-center">
         <h2 className="text-2xl font-semibold text-center mb-6">FAQs</h2>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
             <div
               key={index}
-              data-aos="fade-up" data-aos-delay={index * 100}
-              className={`rounded-lg cursor-pointer p-4 transition-colors ${
-                activeIndex === index
-                  ? "bg-red-700 text-white"
-                  : "bg-gray-200 text-black"
-              }`}
-              onClick={() => toggleFAQ(index)}
+              className="faq-item rounded-lg cursor-pointer p-4 transition-colors bg-gray-200 text-black hover:bg-red-700 hover:text-white"
             >
               <h3 className="text-lg font-medium">{faq.question}</h3>
-              {activeIndex === index && (
-                <p className="mt-2 text-sm">{faq.answer}</p>
-              )}
+              <p className="faq-answer mt-2 text-sm">{faq.answer}</p>
             </div>
           ))}
         </div>

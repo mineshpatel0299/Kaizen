@@ -10,3 +10,14 @@
 .marquee-content {
   animation: marquee 30s linear infinite;
 }
+
+.faq-item .faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.7s ease-out; /* Slower transition */
+}
+
+.faq-item:hover .faq-answer {
+  max-height: 100px; /* Smaller max-height for a "little" effect */
+  transition: max-height 0.7s ease-in; /* Slower transition */
+}
