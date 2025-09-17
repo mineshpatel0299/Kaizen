@@ -1,5 +1,6 @@
+
 import React from "react";
-import WhyIm from "../assets/Whyus1.png";
+import WhyIm from "../assets/Image/whyus.png";
 
 const WhyUs = () => {
   return (
@@ -9,59 +10,69 @@ const WhyUs = () => {
         <div data-aos="fade-right" className="flex justify-center">
           <img
             src={WhyIm}
-            alt="Team Illustration"
-            className="w-[500px] h-[500px] md:w-[600px] md:h-[600px] object-contain rounded-2xl"
+            alt="Why Us Illustration"
+            className="w-full h-auto object-contain rounded-2xl shadow-lg"
           />
         </div>
 
         {/* Right Content */}
         <div data-aos="fade-left">
-          <div className="bg-gray-100 min-h-[200px] p-6 md:p-10 rounded-2xl mb-8">
-            <h2 className="text-2xl md:text-4xl font-bold text-red-600 mb-4">
-              WHY US
+          <div className="bg-gray-50 p-8 rounded-2xl shadow-md mb-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-red-600 mb-4">
+              WHY CHOOSE US
             </h2>
 
-            <p className="text-gray-700 mb-8 leading-relaxed">
-              Kaizen IT Solutions provides end-to-end IT services and solutions,
-              including consulting, infrastructure, managed services,
-              networking, cybersecurity, and cloud solutions. With reliable
-              support and tailored strategies, we help businesses stay secure,
-              efficient, and ready for growth.
+            <p className="text-gray-700 mb-6 leading-relaxed">
+              At Kaizen IT Solutions, we are dedicated to empowering businesses
+              with cutting-edge technology and unparalleled support. Our
+              commitment to excellence, proactive approach, and customer-centric
+              values set us apart.
             </p>
           </div>
 
-          {/* 3 Features */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 ">
-            {/* Card 1 */}
-            <div data-aos="fade-up" data-aos-delay="100" className="bg-gray-100 p-4 rounded-2xl shadow hover:shadow-lg transition">
-              <div className="w-10 h-10 bg-black rounded-full mx-auto mb-3"></div>
-              <h3 className="text-center text-red-600 font-semibold">
-                Trusted & Reliable
+          {/* Features Section */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {/* Feature Card 1: Expertise & Experience */}
+            <div data-aos="fade-up" data-aos-delay="100" className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+              <h3 className="text-xl font-semibold text-red-600 mb-2">
+                Expertise & Experience
               </h3>
-              <p className="text-center text-sm text-gray-600 mt-2">
-                Delivering results you can count on.
+              <p className="text-gray-600">
+                Our team of certified professionals brings years of experience
+                in delivering robust and scalable IT solutions.
               </p>
             </div>
 
-            {/* Card 2 */}
-            <div data-aos="fade-up" data-aos-delay="200" className="bg-gray-100 p-4 rounded-2xl shadow hover:shadow-lg transition">
-              <div className="w-10 h-10 bg-black rounded-full mx-auto mb-3"></div>
-              <h3 className="text-center text-red-600 font-semibold">
-                Fast & Focused
+            {/* Feature Card 2: Customer-Centric Approach */}
+            <div data-aos="fade-up" data-aos-delay="200" className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+              <h3 className="text-xl font-semibold text-red-600 mb-2">
+                Customer-Centric Approach
               </h3>
-              <p className="text-center text-sm text-gray-600 mt-2">
-                Dedicated to helping small businesses succeed.
+              <p className="text-gray-600">
+                We prioritize your needs, offering personalized solutions and
+                responsive support to ensure your satisfaction.
               </p>
             </div>
 
-            {/* Card 3 */}
-            <div data-aos="fade-up" data-aos-delay="300" className="bg-gray-100 p-4 rounded-2xl shadow hover:shadow-lg transition">
-              <div className="w-10 h-10 bg-black rounded-full mx-auto mb-3"></div>
-              <h3 className="text-center text-red-600 font-semibold">
-                Proactive IT Care
+            {/* Feature Card 3: Proactive & Reliable */}
+            <div data-aos="fade-up" data-aos-delay="300" className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+              <h3 className="text-xl font-semibold text-red-600 mb-2">
+                Proactive & Reliable
               </h3>
-              <p className="text-center text-sm text-gray-600 mt-2">
-                Keep your business running smoothly at all times.
+              <p className="text-gray-600">
+                We monitor your systems 24/7 to prevent issues before they
+                impact your business, ensuring maximum uptime.
+              </p>
+            </div>
+
+            {/* Feature Card 4: Innovative Solutions */}
+            <div data-aos="fade-up" data-aos-delay="400" className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+              <h3 className="text-xl font-semibold text-red-600 mb-2">
+                Innovative Solutions
+              </h3>
+              <p className="text-gray-600">
+                We leverage the latest technologies to provide you with a
+                competitive edge and drive your business forward.
               </p>
             </div>
           </div>

@@ -28,20 +28,17 @@ export default function SolutionSection({
                   <h3 className="font-semibold text-[#B81616]">{feat.title}</h3>
                 </div>
                 <p className="text-sm text-black">{feat.text}</p>
-                <button className="mt-3 text-black border border-[#B81616] px-3 py-1 rounded hover:bg-[#B81616] hover:text-white transition">
-                  Read More
-                </button>
               </div>
             ))}
           </div>
         </div>
 
         {/* Image */}
-        <div className="flex-1">
+        <div className="flex-1 p-4">
           <img
             src={image}
             alt={title}
-            className="rounded-xl shadow-lg w-full object-cover"
+            className="rounded-xl shadow-lg w-full h-64 object-cover"
           />
         </div>
       </div>

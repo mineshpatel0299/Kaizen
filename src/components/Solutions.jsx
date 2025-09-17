@@ -23,11 +23,11 @@ const Solutions = () => {
   return (
     <div className="font-sans bg-white">
       {/* Hero Section */}
-      <section className="relative flex flex-col items-center justify-center text-center text-black px-6 h-96 mt-8" data-aos="fade-up">
-        <div className="bg-white/50 absolute inset-0"></div>
-        <div className="relative z-10">
-          <h1 className="text-3xl md:text-5xl font-bold text-[#B81616]">Our Solutions</h1>
-          <p className="mt-4 max-w-2xl mx-auto text-black text-base md:text-lg">
+      <section className="relative flex flex-col items-center justify-center text-center text-black px-6 h-96 mt-8 bg-cover bg-center" style={{ backgroundImage: `url(${cyberImg})` }} data-aos="fade-up">
+        <div className="bg-black/50 absolute inset-0"></div>
+        <div className="relative z-10 text-white">
+          <h1 className="text-3xl md:text-5xl font-bold">Our Solutions</h1>
+          <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg">
             Smart Technology. Scalable Infrastructure. Seamless Integration.  
             Empowering your business with tailored IT solutions designed for
             performance, security, and growth.

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Image from "../assets/Image/20.png";
 import Image1 from "../assets/Image/21.png";
 import Image2 from "../assets/Image/22.png";
@@ -90,12 +91,13 @@ maintenance, we handle your tech backbone.`,
               <p className="mt-3 text-black">{service.description}</p>
 
               <div className="mt-8 ">
-                <button
-                  className="bg-[#B81616] w-full h-10 rounded-xl text-white text-xl "
-                  
-                >
-                  Get In Toch
-                </button>
+                <Link to="/contact">
+                  <button
+                    className="bg-[#B81616] w-full h-10 rounded-xl text-white text-xl "
+                  >
+                    Get In Touch
+                  </button>
+                </Link>
               </div>
             </div>
           ))}

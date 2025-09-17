@@ -19,7 +19,7 @@ const Home = () => {
       <SolutionSector />
       <Faqus />
       <Courosel/>
-      <ContactCard />
+      {/* <ContactCard /> */}
     </>
   );
 };
