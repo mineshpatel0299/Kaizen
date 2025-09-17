@@ -34,7 +34,7 @@ const Support = () => {
       />
 
       {/* Hero Section */}
-      <div className="relative z-10 max-w-3xl text-center mt-20 px-6">
+      <div className="relative z-10 max-w-3xl text-center mt-32 px-6">
         <motion.h1
           initial={{ y: -40, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

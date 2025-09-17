@@ -38,7 +38,7 @@ export default function SolutionSection({
           <img
             src={image}
             alt={title}
-            className="rounded-xl shadow-lg w-full h-64 object-cover"
+            className="rounded-xl shadow-lg w-full h-80 object-cover"
           />
         </div>
       </div>

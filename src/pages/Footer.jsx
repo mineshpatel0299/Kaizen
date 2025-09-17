@@ -95,8 +95,8 @@ export default function Footer() {
             Dubai, UAE
           </p>
           <p className="mt-2 text-white text-sm">
-            Phone: +971 4 429 3690 <br />
-            Email: info@kaizennetworks.com
+            Phone: +97144293690 <br />
+            Email: info@kaizenitsolutionsllc.com
           </p>
         </div>
       </div>
