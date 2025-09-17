@@ -172,7 +172,7 @@ const Contact = () => {
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">
                       Phone
                     </h3>
-                    <p className="text-gray-600">+971 4 429 3690</p>
+                    <p className="text-gray-600">+97144293690</p>
                   </div>
                 </div>
 
@@ -197,9 +197,9 @@ const Contact = () => {
                       Email
                     </h3>
                     <p className="text-gray-600">
-                      info@kizen.com
-                      <br />
-                      support@kaizen.com
+                      info@kaizenitsolutionsllc.com
+                      
+                      
                     </p>
                   </div>
                 </div>
