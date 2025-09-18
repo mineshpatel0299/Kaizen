@@ -10,7 +10,7 @@ const navigate = useNavigate();
     window.scrollTo(0, 0);
   };
   return (
-    <section className="bg-gray-50 py-12 px-4 md:px-16 flex flex-row md:flex-row items-center relative overflow-hidden">
+    <section className="bg-gray-50 py-12 px-4 md:px-16 flex flex-col md:flex-row items-center relative overflow-hidden">
       {/* Text */}
       <div data-aos="fade-right" className="relative w-full md:w-3/4 px-4 md:px-6 py-6 rounded-lg z-10">
         {/* Heading */}
@@ -29,11 +29,11 @@ const navigate = useNavigate();
         {/* Vision & Mission */}
         <ul className="space-y-8">
           {/* Vision */}
-          <li className="flex items-start space-x-6">
+          <li className="flex flex-col md:flex-row items-start space-x-0 md:space-x-6 bg-white p-4 rounded-lg shadow-md md:bg-transparent md:p-0 md:shadow-none">
             <img
               src={Eye}
               alt="Vision Icon"
-              className="w-10 h-10 flex-shrink-0"
+              className="w-10 h-10 flex-shrink-0 mb-2 md:mb-0"
             />
             <div>
               <h3 className="font-semibold text-xl text-[#B81616]">Vision</h3>
@@ -47,11 +47,11 @@ const navigate = useNavigate();
           </li>
 
           {/* Mission */}
-          <li className="flex items-start space-x-6">
+          <li className="flex flex-col md:flex-row items-start space-x-0 md:space-x-6 bg-white p-4 rounded-lg shadow-md md:bg-transparent md:p-0 md:shadow-none">
             <img
               src={Target}
               alt="Mission Icon"
-              className="w-10 h-10 flex-shrink-0"
+              className="w-10 h-10 flex-shrink-0 mb-2 md:mb-0"
             />
             <div>
               <h3 className="font-semibold text-xl text-[#B81616]">Mission</h3>
@@ -73,18 +73,12 @@ const navigate = useNavigate();
       </div>
 
       {/* Robot Image */}
-      <div data-aos="fade-left" className="w-full md:w-1/2 flex justify-center md:justify-end mt-6 md:mt-0">
+      <div data-aos="fade-left" className="hidden md:flex w-full md:w-1/2 justify-center md:justify-end mt-6 md:mt-0">
         {/* Desktop Image */}
         <img
           src={Robot}
           alt="Robot"
-          className="relative hidden md:block max-h-[600px] w-auto object-contain"
-        />
-        {/* Mobile Image */}
-        <img
-          src={RobotSmall}
-          alt="Robot Small"
-          className="block md:hidden max-h-[350px] w-auto object-contain"
+          className="relative max-h-[600px] w-auto object-contain"
         />
       </div>
     </section>

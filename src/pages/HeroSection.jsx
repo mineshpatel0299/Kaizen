@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import { FaThumbsUp, FaHeadset ,} from "react-icons/fa";
 import Background from "../assets/kaizenwebBg.mp4";
 import { useNavigate } from "react-router-dom";
@@ -41,7 +42,7 @@ const HeroSection = () => {
       {/*  Stats Section */}
       <section data-aos="fade-up" className="text-white py-6 md:py-10 grid grid-cols-1 md:grid-cols-[0.5fr_2.5fr] gap-6 items-center text-center">
         {/* Left Side - Image */}
-        <div className="flex justify-center items-center">
+        <div className="hidden md:flex justify-center items-center">
           <img src={Arrow} alt="Arrow" className="w-40 h-40 md:w-48 md:h-40" />
         </div>
 
@@ -51,7 +52,7 @@ const HeroSection = () => {
             <div className=" white flex flex-row gap-4 p-2">
             <FaThumbsUp className="text-5xl text-white" />
             <div className="flex items-center justify-center gap-2 text-center">
-              <p className="text-2xl font-bold">99%</p>
+              <Counter target={99} duration={2000} />%
               </div>
               </div>
               <p className="text-xl flex flex-col">
@@ -77,6 +78,28 @@ const HeroSection = () => {
       </section>
     </div>
   );
+};
+
+const Counter = ({ target, duration }) => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    let start = 0;
+    const end = target;
+    const incrementTime = (duration / end);
+
+    const timer = setInterval(() => {
+      start += 1;
+      setCount(start);
+      if (start === end) {
+        clearInterval(timer);
+      }
+    }, incrementTime);
+
+    return () => clearInterval(timer);
+  }, [target, duration]);
+
+  return <p className="text-2xl font-bold">{count}</p>;
 };
 
 export default HeroSection;

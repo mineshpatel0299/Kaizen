@@ -13,12 +13,15 @@ const Home = () => {
       <HeroSection />
       <ChooseSection />
       <Whyus />
+      <Courosel/>
       <ServicesSection />
+      
       <Testimonials />
 
       <SolutionSector />
+      
+      
       <Faqus />
-      <Courosel/>
       {/* <ContactCard /> */}
     </>
   );

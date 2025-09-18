@@ -37,7 +37,7 @@ const Faqs = () => {
   return (
     <>
       <div className="max-w-3/4 mx-auto px-4 py-10 text-center">
-        <h2 className="text-2xl font-semibold text-center mb-6">FAQs</h2>
+        <h2 className="text-2xl font-semibold text-center mb-6">Frequently Asked Questions</h2>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
             <div
@@ -50,20 +50,7 @@ const Faqs = () => {
           ))}
         </div>
       </div>
-      <div className="relative w-full">
-        <img
-          src={Background}
-          alt="Background"
-          className="h-60 w-screen mt-10 mb-10 object-cover"
-        />
-
-        {/* Button ko center me rakhne ke liye absolute */}
-        <button className="absolute inset-0 flex items-center justify-center">
-          <span className="bg-black text-white px-12 py-4 text-2xl rounded-lg" onClick={handleClick}>
-            let’s get started!
-          </span>
-        </button>
-      </div>
+      
     </>
   );
 };
