@@ -1,5 +1,5 @@
-import Eye from "../assets/eye.png";
-import Target from "../assets/target.png";
+import VisionGif from "../assets/Image/vission.gif";
+import MissionGif from "../assets/Image/mission.gif";
 
 const ChooseAbout = () => {
   return (
@@ -24,36 +24,43 @@ const ChooseAbout = () => {
         {/* Vision & Mission */}
         <ul className="flex flex-col md:flex-row gap-10 md:gap-16 w-full md:w-3/4">
           {/* Vision */}
-          <li className="flex-1 flex flex-col items-center p-6 rounded-lg shadow-lg bg-white text-center md:flex-row md:items-start md:text-left" data-aos="fade-right">
-            <img
-              src={Eye}
-              alt="Vision Icon"
-              className="w-10 h-10 flex-shrink-0 mb-4 md:mb-0 md:mr-4"
-            />
+          <li className="flex-1 flex flex-col items-center p-6 rounded-lg shadow-lg bg-white text-center" data-aos="fade-right">
+            <div className="flex items-center justify-center mb-4">
+              <img
+                src={VisionGif}
+                alt="Vision Icon"
+                className="w-10 h-10 flex-shrink-0 mr-2"
+              />
+              <h3 className="font-semibold text-xl text-[#B81616]">Vision</h3>
+            </div>
             <div className="flex-1">
-              <h3 className="font-semibold text-xl text-[#B81616] mb-2">Vision</h3>
               <p className="text-gray-700 text-sm md:text-base leading-relaxed">
                 To be a trusted leader in IT services and solutions, known for
                 innovation, reliability, and customer success. We strive to
                 foster lasting partnerships with our clients and cultivate a
                 workplace where individuals are motivated to grow and thrive.
+                Our commitment is to deliver excellence and drive progress.
               </p>
             </div>
           </li>
 
           {/* Mission */}
-          <li className="flex-1 flex flex-col items-center p-6 rounded-lg shadow-lg bg-white text-center md:flex-row md:items-start md:text-left" data-aos="fade-left">
-            <img
-              src={Target}
-              alt="Mission Icon"
-              className="w-10 h-10 flex-shrink-0 mb-4 md:mb-0 md:mr-4"
-            />
+          <li className="flex-1 flex flex-col items-center p-6 rounded-lg shadow-lg bg-white text-center" data-aos="fade-left">
+            <div className="flex items-center justify-center mb-4">
+              <img
+                src={MissionGif}
+                alt="Mission Icon"
+                className="w-10 h-10 flex-shrink-0 mr-2"
+              />
+              <h3 className="font-semibold text-xl text-[#B81616]">Mission</h3>
+            </div>
             <div className="flex-1">
-              <h3 className="font-semibold text-xl text-[#B81616] mb-2">Mission</h3>
               <p className="text-gray-700 text-sm md:text-base leading-relaxed">
                 To drive continuous improvement by delivering reliable,
                 innovative, and tailored IT services and solutions that empower
-                businesses to grow, adapt, and succeed in the digital age.
+                businesses to grow, adapt, and succeed in the digital age. We
+                are committed to fostering strong client relationships and
+                enabling their success through cutting-edge technology.
               </p>
             </div>
           </li>

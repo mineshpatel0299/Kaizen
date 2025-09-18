@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import chooseImage from "../assets/Image/empowering.png";
-import Eye from "../assets/eye.png";
-import Target from "../assets/target.png";
+import VisionGif from "../assets/Image/vission.gif";
+import MissionGif from "../assets/Image/mission.gif";
 
 const ChooseSection = () => {
   const navigate = useNavigate();
@@ -41,7 +41,7 @@ const ChooseSection = () => {
             {/* Vision */}
             <li className="flex items-start space-x-4">
               <img
-                src={Eye}
+                src={VisionGif}
                 alt="Vision Icon"
                 className="w-8 h-8 flex-shrink-0"
               />
@@ -59,7 +59,7 @@ const ChooseSection = () => {
             {/* Mission */}
             <li className="flex items-start space-x-4">
               <img
-                src={Target}
+                src={MissionGif}
                 alt="Mission Icon"
                 className="w-8 h-8 flex-shrink-0"
               />
@@ -68,7 +68,8 @@ const ChooseSection = () => {
                 <p className="text-gray-700 text-sm leading-relaxed">
                   To drive continuous improvement by delivering reliable,
                   innovative, and tailored IT services and solutions that empower
-                  businesses to grow, adapt, and succeed in the digital age.
+                  businesses to grow, adapt, and succeed in the digital age. We are
+                  committed to ensuring our clients achieve their strategic goals.
                 </p>
               </div>
             </li>
