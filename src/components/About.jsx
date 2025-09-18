@@ -80,7 +80,7 @@ const About = () => {
               solutions designed for modern business demands. We specialize in
               building secure, scalable, and high-performing infrastructures by
               integrating top-tier technologies from trusted vendors — tailored
-              to fit your unique operational needs.
+              to fit your unique operational needs .
             </p>
             <p className="font-semibold text-gray-800 text-lg leading-relaxed">
               Our mission is simple: to help growing businesses thrive by
