@@ -24,14 +24,14 @@ const ChooseAbout = () => {
         {/* Vision & Mission */}
         <ul className="flex flex-col md:flex-row gap-10 md:gap-16 w-full md:w-3/4">
           {/* Vision */}
-          <li className="flex-1 flex items-start gap-x-4 text-center md:text-left" data-aos="fade-right">
+          <li className="flex-1 flex flex-col items-center p-6 rounded-lg shadow-lg bg-white text-center md:flex-row md:items-start md:text-left" data-aos="fade-right">
             <img
               src={Eye}
               alt="Vision Icon"
-              className="w-10 h-10 flex-shrink-0 mx-auto md:mx-0"
+              className="w-10 h-10 flex-shrink-0 mb-4 md:mb-0 md:mr-4"
             />
-            <div>
-              <h3 className="font-semibold text-xl text-[#B81616]">Vision</h3>
+            <div className="flex-1">
+              <h3 className="font-semibold text-xl text-[#B81616] mb-2">Vision</h3>
               <p className="text-gray-700 text-sm md:text-base leading-relaxed">
                 To be a trusted leader in IT services and solutions, known for
                 innovation, reliability, and customer success. We strive to
@@ -42,14 +42,14 @@ const ChooseAbout = () => {
           </li>
 
           {/* Mission */}
-          <li className="flex-1 flex items-start gap-x-4 text-center md:text-left" data-aos="fade-left">
+          <li className="flex-1 flex flex-col items-center p-6 rounded-lg shadow-lg bg-white text-center md:flex-row md:items-start md:text-left" data-aos="fade-left">
             <img
               src={Target}
               alt="Mission Icon"
-              className="w-10 h-10 flex-shrink-0 mx-auto md:mx-0"
+              className="w-10 h-10 flex-shrink-0 mb-4 md:mb-0 md:mr-4"
             />
-            <div>
-              <h3 className="font-semibold text-xl text-[#B81616]">Mission</h3>
+            <div className="flex-1">
+              <h3 className="font-semibold text-xl text-[#B81616] mb-2">Mission</h3>
               <p className="text-gray-700 text-sm md:text-base leading-relaxed">
                 To drive continuous improvement by delivering reliable,
                 innovative, and tailored IT services and solutions that empower

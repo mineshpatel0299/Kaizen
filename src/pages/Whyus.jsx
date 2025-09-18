@@ -1,6 +1,6 @@
 
 import React from "react";
-import WhyIm from "../assets/Image/whyus.png";
+import WhyIm from "../assets/Image/tree.png";
 
 const WhyUs = () => {
   return (

@@ -19,7 +19,7 @@ const Navbar = () => {
         isScrolled ? "bg-white shadow-md" : "bg-transparent"
       }`}
     >
-      <div className="max-full mx-auto px-20 py-4 flex items-center justify-between">
+      <div className="max-w-full mx-auto px-4 md:px-20 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="h-20 w-[200px] flex items-center justify-start overflow-hidden">
           <NavLink to="/">

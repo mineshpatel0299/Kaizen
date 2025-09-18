@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaThumbsUp, FaHeadset ,} from "react-icons/fa";
+import { FaThumbsUp, FaHeadset, FaSmile } from "react-icons/fa";
 import Background from "../assets/kaizenwebBg.mp4";
 import { useNavigate } from "react-router-dom";
 import Arrow from "../assets/Arrow.png";
@@ -13,7 +13,7 @@ const HeroSection = () => {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <section className="relative flex items-center justify-center h-[80vh] px-4 m-4 mt-32">
+      <section className="relative flex items-center justify-center h-[80vh] px-4 mt-32">
         <video
           src={Background}
           autoPlay
@@ -33,9 +33,7 @@ const HeroSection = () => {
             expert team is dedicated to helping your business thrive in the
             digital age, ensuring sustainable growth and success.
           </p>
-          <button className="mt-6 bg-[#B81616] hover:bg-red-700 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg shadow-lg transition text-sm sm:text-base md:text-lg" onClick={handleGetStarted}>
-            GET STARTED TODAY
-          </button>
+          
         </div>
       </section>
 
@@ -47,10 +45,10 @@ const HeroSection = () => {
         </div>
 
         {/* Right Side - Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-[#B81616] w-full p-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 bg-[#B81616] w-full p-6">
           <div className="flex flex-row items-center justify-center gap-3 p-6 rounded-2xl">
             <div className=" white flex flex-row gap-4 p-2">
-            <FaThumbsUp className="text-5xl text-white" />
+            <FaSmile className="text-5xl text-white" />
             <div className="flex items-center justify-center gap-2 text-center">
               <Counter target={99} duration={2000} />%
               </div>
@@ -58,6 +56,21 @@ const HeroSection = () => {
               <p className="text-xl flex flex-col">
                 <span className="block">HAPPY</span>
                 <span className="block">CLIENTS</span>
+              </p>
+            
+          </div>
+
+          {/* New Counter for Projects Completed */}
+          <div className="flex flex-row items-center justify-center gap-3 p-6 rounded-2xl">
+            <div className=" white flex flex-row gap-4 p-2">
+            <FaThumbsUp className="text-5xl text-white" /> {/* Reusing FaThumbsUp for now, can be changed to a more appropriate icon if available */}
+            <div className="flex items-center justify-center gap-2 text-center">
+              <Counter target={200} duration={2000} />+
+              </div>
+              </div>
+              <p className="text-xl flex flex-col">
+                <span className="block">PROJECTS</span>
+                <span className="block">COMPLETED</span>
               </p>
             
           </div>

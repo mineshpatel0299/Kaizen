@@ -43,7 +43,7 @@ const products = [
 
 const Product = () => {
   return (
-    <div className="relative min-h-screen bg-white flex flex-col items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8">
+    <div className="relative min-h-[calc(100vh-6rem)] md:min-h-[calc(100vh-8rem)] bg-white flex flex-col items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8 pt-24 md:pt-32">
       {/* Animated Background Gradient Blobs */}
       <motion.div
         initial={{ opacity: 0 }}
@@ -59,7 +59,7 @@ const Product = () => {
       />
 
       {/* Page Content */}
-      <div className="relative z-10 text-center max-w-6xl">
+      <div className="relative z-10 text-center max-w-6xl py-8">
         <motion.h1
           initial={{ y: -50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

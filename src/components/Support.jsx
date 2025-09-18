@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { Mail, Phone, MessageCircle } from "lucide-react"; // icons
+import Chatbot from './Chatbot'; // Import the Chatbot component
+import { useState } from 'react'; // Import useState
 
 const faqs = [
   {
@@ -17,6 +19,8 @@ const faqs = [
 ];
 
 const Support = () => {
+  const [isChatbotOpen, setIsChatbotOpen] = useState(false); // State to control chatbot visibility
+
   return (
     <div className="relative min-h-screen bg-white flex flex-col items-center overflow-hidden">
       {/* Animated background */}
@@ -56,9 +60,9 @@ const Support = () => {
       {/* Contact Options */}
       <div className="relative z-10 grid md:grid-cols-3 gap-8 max-w-5xl px-6 mb-20">
         {[
-          { icon: <Mail className="w-8 h-8 text-blue-600" />, title: "Email Us", desc: "support@kaizen.com" },
-          { icon: <MessageCircle className="w-8 h-8 text-green-600" />, title: "Live Chat", desc: "Chat with our agents instantly" },
-          { icon: <Phone className="w-8 h-8 text-purple-600" />, title: "Call Us", desc: "+91 9996383734" },
+          { icon: <Mail className="w-8 h-8 text-blue-600" />, title: "Email Us", desc: "info@kaizenitsolutionsllc.com" },
+          { icon: <MessageCircle className="w-8 h-8 text-green-600" />, title: "Live Chat", desc: "Chat with our agents instantly", action: () => setIsChatbotOpen(true) },
+          { icon: <Phone className="w-8 h-8 text-purple-600" />, title: "Call Us", desc: "+97144293690" },
         ].map((item, i) => (
           <motion.div
             key={i}
@@ -67,6 +71,7 @@ const Support = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: i * 0.2 }}
             className="bg-white shadow-lg border rounded-2xl p-6 hover:shadow-2xl transition-all"
+            onClick={item.action} // Add onClick handler
           >
             <div className="mb-4">{item.icon}</div>
             <h3 className="text-lg font-semibold text-gray-800">{item.title}</h3>
@@ -96,6 +101,9 @@ const Support = () => {
           ))}
         </div>
       </div>
+
+      {/* Chatbot Component */}
+      <Chatbot isOpen={isChatbotOpen} onClose={() => setIsChatbotOpen(false)} />
     </div>
   );
 };

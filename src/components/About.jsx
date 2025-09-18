@@ -1,4 +1,4 @@
-import Background from "../assets/empowering.png";
+import Background from "../assets/Image/empowering.png";
 import Image from "../assets/about1.jpg";
 import Image1 from "../assets/about3.jpg";
 import Image2 from "../assets/about4.jpg";

@@ -23,7 +23,7 @@ function App() {
     <Router>
       <ScrollToTop />
       <Navbar />
-      <main>
+      <main className="no-scrollbar">
         <Routes>
           
           <Route path="/" element={<Home />} />
