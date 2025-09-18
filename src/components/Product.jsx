@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 // Import logos
 import CiscoLogo from "../assets/Image/cisco.png";
 import FortigateLogo from "../assets/Image/2.png";
-import MicrosoftLogo from "../assets/Image/MicrosoftLogo.png";
+import MicrosoftLogo from "../assets/Image/microsoftlogo.png";
 import LenovoLogo from "../assets/Image/3.jpg";
 import DellLogo from "../assets/Image/Dell.png";
 import VeeamLogo from "../assets/Image/6.jpg";
