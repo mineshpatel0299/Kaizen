@@ -6,17 +6,8 @@ const WhyUs = () => {
   return (
     <section className="w-full bg-white px-4 md:px-20 py-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10">
-        {/* Left Image */}
-        <div data-aos="fade-right" className="flex justify-center">
-          <img
-            src={WhyIm}
-            alt="Why Us Illustration"
-            className="w-full h-auto object-contain rounded-2xl shadow-lg"
-          />
-        </div>
-
-        {/* Right Content */}
-        <div data-aos="fade-left">
+        {/* Left Content */}
+        <div data-aos="fade-right">
           <div className="bg-gray-50 p-8 rounded-2xl shadow-md mb-8">
             <h2 className="text-3xl md:text-4xl font-bold text-red-600 mb-4">
               WHY CHOOSE US
@@ -41,7 +32,7 @@ const WhyUs = () => {
                 Our team of certified professionals brings years of experience
                 in delivering robust and scalable IT solutions.
               </p>
-            </div>
+            </div> 
 
             {/* Feature Card 2: Customer-Centric Approach */}
             <div data-aos="fade-up" data-aos-delay="200" className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
@@ -76,6 +67,15 @@ const WhyUs = () => {
               </p>
             </div>
           </div>
+        </div>
+
+        {/* Right Image */}
+        <div data-aos="fade-left" className="flex justify-center">
+          <img
+            src={WhyIm}
+            alt="Why Us Illustration"
+            className="w-full h-auto object-contain rounded-2xl shadow-lg"
+          />
         </div>
       </div>
     </section>
