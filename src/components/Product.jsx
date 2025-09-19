@@ -64,9 +64,9 @@ const Product = () => {
           initial={{ y: -50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1 }}
-          className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-gray-900 mb-4"
+          className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-[#b81616] mb-4"
         >
-          Our <span className="text-[#B81616]">Products</span>
+          Our Product
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}

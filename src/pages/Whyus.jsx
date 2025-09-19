@@ -9,7 +9,7 @@ const WhyUs = () => {
         {/* Left Content */}
         <div data-aos="fade-right">
           <div className="bg-gray-50 p-8 rounded-2xl shadow-md mb-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-red-600 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#B81616] mb-4">
               WHY CHOOSE US
             </h2>
 
@@ -25,7 +25,7 @@ const WhyUs = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {/* Feature Card 1: Expertise & Experience */}
             <div data-aos="fade-up" data-aos-delay="100" className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
-              <h3 className="text-xl font-semibold text-red-600 mb-2">
+              <h3 className="text-xl font-semibold text-[#B81616] mb-2">
                 Expertise & Experience
               </h3>
               <p className="text-gray-600">

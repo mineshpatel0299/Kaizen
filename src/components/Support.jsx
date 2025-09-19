@@ -43,9 +43,9 @@ const Support = () => {
           initial={{ y: -40, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1 }}
-          className="text-4xl md:text-6xl font-bold text-gray-900 mb-4"
-        >
-          We’re Here to <span className="text-[#B81616]">Help</span>
+          className="text-4xl md:text-6xl font-bold text-[#B81616] mb-4"
+        > 
+          We’re Here to Help 
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
