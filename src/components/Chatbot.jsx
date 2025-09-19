@@ -140,7 +140,7 @@ const Chatbot = ({ isOpen, onClose }) => {
                 className={`flex ${msg.sender === 'user' ? 'justify-end' : 'justify-start'}`}
               >
                 <div
-                  className={`max-w-[70%] p-3 rounded-lg ${
+                  className={`max-w-[70%] p-3 rounded-lg break-words ${
                     msg.sender === 'user'
                       ? 'bg-blue-500 text-white'
                       : 'bg-gray-200 text-gray-800'

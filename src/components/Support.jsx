@@ -60,9 +60,9 @@ const Support = () => {
       {/* Contact Options */}
       <div className="relative z-10 grid md:grid-cols-3 gap-8 max-w-5xl px-6 mb-20">
         {[
-          { icon: <Mail className="w-8 h-8 text-blue-600" />, title: "Email Us", desc: "info@kaizenitsolutionsllc.com" },
+          { icon: <Mail className="w-8 h-8 text-blue-600" />, title: "Email Us", desc: "info@kaizenitsolutionsllc.com", action: () => window.location.href = 'mailto:info@kaizenitsolutionsllc.com' },
           { icon: <MessageCircle className="w-8 h-8 text-green-600" />, title: "Live Chat", desc: "Chat with our agents instantly", action: () => setIsChatbotOpen(true) },
-          { icon: <Phone className="w-8 h-8 text-purple-600" />, title: "Call Us", desc: "+97144293690" },
+          { icon: <Phone className="w-8 h-8 text-purple-600" />, title: "Call Us", desc: "+97144293690", action: () => window.location.href = 'tel:+97144293690' },
         ].map((item, i) => (
           <motion.div
             key={i}
