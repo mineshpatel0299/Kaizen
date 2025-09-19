@@ -25,7 +25,7 @@ const About = () => {
       >
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold">About Us</h1>
-          <p className="mt-4 text-lg">
+          <p className="mt-4  text-lg">
             Empowering Growth Through Intelligent IT Integration
           </p>
           {/* <button className="mt-6 bg-gray-500 hover:bg-gray-700 text-white px-6 py-3 rounded-lg shadow-lg transition">
@@ -72,7 +72,7 @@ const About = () => {
 
           {/* Content */}
           <div className="max-w-lg p-6 bg-white rounded-lg shadow-xl" data-aos="fade-left">
-            <h2 className="text-4xl font-extrabold mb-6 leading-tight text-gray-900">
+            <h2 className="text-4xl font-extrabold mb-6 leading-tight text-[#B81616]">
               Empowering Growth Through Intelligent IT Integration
             </h2>
             <p className="text-gray-700 mb-4 text-lg leading-relaxed">
@@ -94,7 +94,7 @@ const About = () => {
 
       {/* Why Choose Us Section (Vision/Mission) */}
       <section className="py-16 bg-gradient-to-b from-gray-50 to-white px-6 md:px-20 text-center" data-aos="fade-up">
-        <h2 className="text-4xl font-extrabold mb-12 text-gray-900">Why Choose Us?</h2>
+        <h2 className="text-4xl font-extrabold mb-12 text-[#B81616]">Why Choose Us?</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
           <div className="bg-white text-black p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:-translate-y-2 text-left border border-gray-100" data-aos="fade-up" data-aos-delay="100">
             <div className="p-3 mb-4 bg-red-100 rounded-full inline-block">
