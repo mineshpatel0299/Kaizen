@@ -26,7 +26,7 @@ const ChooseSection = () => {
       {/* Content Section */}
       <div data-aos="fade-left" className="w-full lg:w-[55%] px-4 md:px-6 py-6 lg:-ml-32 relative z-10">
         <div className="bg-white p-8 rounded-lg shadow-xl mx-auto lg:mx-0">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#B81616] leading-tight mb-6">
             WHO WE ARE?
           </h2>
           <p className="text-gray-700 text-base leading-relaxed mb-8">

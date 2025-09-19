@@ -36,7 +36,7 @@ const WhyUs = () => {
 
             {/* Feature Card 2: Customer-Centric Approach */}
             <div data-aos="fade-up" data-aos-delay="200" className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
-              <h3 className="text-xl font-semibold text-red-600 mb-2">
+              <h3 className="text-xl font-semibold text-[#B81616] mb-2">
                 Customer-Centric Approach
               </h3>
               <p className="text-gray-600">
@@ -47,7 +47,7 @@ const WhyUs = () => {
 
             {/* Feature Card 3: Proactive & Reliable */}
             <div data-aos="fade-up" data-aos-delay="300" className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
-              <h3 className="text-xl font-semibold text-red-600 mb-2">
+              <h3 className="text-xl font-semibold text-[#B81616] mb-2">
                 Proactive & Reliable
               </h3>
               <p className="text-gray-600">
@@ -58,7 +58,7 @@ const WhyUs = () => {
 
             {/* Feature Card 4: Innovative Solutions */}
             <div data-aos="fade-up" data-aos-delay="400" className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
-              <h3 className="text-xl font-semibold text-red-600 mb-2">
+              <h3 className="text-xl font-semibold text-[#B81616] mb-2">
                 Innovative Solutions
               </h3>
               <p className="text-gray-600">
