@@ -16,7 +16,7 @@ const Home = () => {
       <Courosel/>
       <ServicesSection />
       
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       <SolutionSector />
       

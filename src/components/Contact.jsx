@@ -2,15 +2,22 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-gray-50 py-16 mt-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Contact Us
+    <div className="min-h-screen bg-gray-50 mt-20">
+      {/* Header with background image */}
+      <div
+        className="relative bg-cover bg-center py-32 mb-16"
+        style={{ backgroundImage: `url('/src/assets/Image/20.png')` }}
+      >
+        <div className="absolute inset-0 bg-black opacity-50"></div>{" "}
+        {/* Overlay for better text visibility */}
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            Contacts
           </h1>
         </div>
+      </div>
 
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Form */}
           <div className="bg-white p-8 rounded-lg shadow-lg">
@@ -172,7 +179,7 @@ const Contact = () => {
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">
                       Phone
                     </h3>
-                    <p className="text-gray-600">+97144293690</p>
+                    <p className="text-gray-600">0506766895</p>
                   </div>
                 </div>
 

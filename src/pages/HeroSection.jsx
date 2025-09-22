@@ -38,15 +38,14 @@ const HeroSection = () => {
         </div>
       </section>
 
-      {/*  Stats Section */}
-      <section data-aos="fade-up" className="text-white py-6 md:py-10 grid grid-cols-1 md:grid-cols-[0.5fr_2.5fr] gap-6 items-center text-center">
-        {/* Left Side - Image */}
+      
+      {/* <section data-aos="fade-up" className="text-white py-6 md:py-10 grid grid-cols-1 md:grid-cols-[0.5fr_2.5fr] gap-6 items-center text-center">
+       
         <div className="hidden md:flex justify-center items-center">
           <img src={Arrow} alt="Arrow" className="w-40 h-40 md:w-48 md:h-40" />
         </div>
 
-        {/* Right Side - Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 bg-[#B81616] w-full p-6">
+       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 bg-[#B81616] w-full p-6">
           <div className="flex flex-row items-center justify-center gap-3 p-6 rounded-2xl">
             <div className=" white flex flex-row gap-4 p-2">
             <FaSmile className="text-5xl text-white" />
@@ -61,10 +60,10 @@ const HeroSection = () => {
             
           </div>
 
-          {/* New Counter for Projects Completed */}
+         
           <div className="flex flex-row items-center justify-center gap-3 p-6 rounded-2xl">
             <div className=" white flex flex-row gap-4 p-2">
-            <FaThumbsUp className="text-5xl text-white" /> {/* Reusing FaThumbsUp for now, can be changed to a more appropriate icon if available */}
+            <FaThumbsUp className="text-5xl text-white" /> 
             <div className="flex items-center justify-center gap-2 text-center">
               <Counter target={200} duration={2000} />+
               </div>
@@ -89,7 +88,7 @@ const HeroSection = () => {
             
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

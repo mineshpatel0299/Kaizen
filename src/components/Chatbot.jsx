@@ -49,7 +49,7 @@ const predefinedAnswers = {
   "1": "We offer IT Solution Design & Implementation, IT Services & Consulting, IT Network Operations, Support Services, and Managed Services. We provide end-to-end IT management solutions.",
   "2": "Our solutions include IT Infrastructure, Cloud & Virtualization, Backup Solutions, Server & Storage, Network & Security, Data Center Solutions, Structured Cabling, Video Surveillance, and ELV (Extra Low Voltage) solutions.",
   "3": "We are a trusted and reliable partner, fast and focused on keeping your business running smoothly, and offer proactive IT care. We deliver tailored IT services and solutions that drive continuous improvement and peak performance.",
-  "4": "You can reach us by phone at +971-50-262 6894 or +971-56-599 7338, email us at info@kaizenitsolutionsllc.com, or visit our website at www.kaizenitsolutionsllc.com.",
+  "4": "You can reach us by phone at 0506766895, email us at info@kaizenitsolutionsllc.com, or visit our website at www.kaizenitsolutionsllc.com.",
   "5": "Yes, our support team is available 24/7 to assist you with any queries, and we offer 24/7 monitoring and management of your IT networks.",
 };
 
