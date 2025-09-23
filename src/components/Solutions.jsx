@@ -5,6 +5,15 @@ import networkImg from "../assets/Solution/2.jpg";
 import Unifo from "../assets/Solution/3.jpg";
 import Itinfo from "../assets/Solution/4.jpg";
 import Evn from "../assets/Solution/5.jpg";
+import securityImg from "../assets/security.png";
+import backupImg from "../assets/backup.png";
+import cloudVirtualImg from "../assets/cloud and virtual.png";
+import itInfraImg from "../assets/itinfra.png";
+import elvSolImg from "../assets/elvsol.png";
+import serverImg from "../assets/server.png";
+import datacenterImg from "../assets/datacenter.png";
+import scabellingImg from "../assets/scabelling.png";
+import videosurImg from "../assets/videosur.png";
 // ✅ Import Lucide icons
 import {
   Shield,
@@ -51,7 +60,7 @@ const Solutions = () => {
         <SolutionSection
           title="Backup Solutions"
           description="Reliable and automated backup systems that protect your data and ensure business continuity in the event of failures or disasters."
-          image={cyberImg}
+          image={backupImg}
           features={[
             {
               icon: <Shield className="w-6 h-6 text-white" />,
@@ -72,7 +81,7 @@ const Solutions = () => {
         <SolutionSection
           title="Network & Security"
           description="Secure, scalable, and efficient networks designed to withstand evolving cyber threats and ensure seamless connectivity."
-          image={networkImg}
+          image={securityImg}
           reverse
           features={[
             {
@@ -94,7 +103,7 @@ const Solutions = () => {
         <SolutionSection
           title="Cloud & Virtualization"
           description="Leverage the power of cloud and virtual systems to reduce IT costs, improve flexibility, and enable scalability."
-          image={Unifo}
+          image={cloudVirtualImg}
           features={[
             {
               icon: <Server className="w-6 h-6 text-white" />,
@@ -115,7 +124,7 @@ const Solutions = () => {
         <SolutionSection
           title="IT Infrastructure"
           description="Robust, scalable, and future-ready IT infrastructures designed for seamless business operations."
-          image={Itinfo}
+          image={itInfraImg}
           reverse
           features={[
             {
@@ -137,7 +146,7 @@ const Solutions = () => {
         <SolutionSection
           title="ELV Solutions"
           description="Extra-Low Voltage (ELV) solutions that improve safety, communication, and automation in modern workplaces."
-          image={Evn}
+          image={elvSolImg}
           features={[
             {
               icon: <Shield className="w-6 h-6 text-white" />,
@@ -158,7 +167,7 @@ const Solutions = () => {
         <SolutionSection
           title="Server & Storage"
           description="High-performance servers and storage solutions to support business growth and manage expanding data needs."
-          image={Itinfo}
+          image={serverImg}
           reverse
           features={[
             {
@@ -180,7 +189,7 @@ const Solutions = () => {
         <SolutionSection
           title="Data Center Solutions"
           description="Design and implementation of high-availability, energy-efficient, and secure data centers tailored to your business scale."
-          image={Evn}
+          image={datacenterImg}
           features={[
             {
               icon: <Server className="w-6 h-6 text-white" />,
@@ -201,7 +210,7 @@ const Solutions = () => {
         <SolutionSection
           title="Structured Cabling"
           description="Organized, future-proof cabling infrastructure that supports high-speed data and communication systems."
-          image={Itinfo}
+          image={scabellingImg}
           reverse
           features={[
             {
@@ -223,7 +232,7 @@ const Solutions = () => {
         <SolutionSection
           title="Video Surveillance"
           description="Intelligent surveillance systems for real-time monitoring, incident detection, and advanced analytics."
-          image={Evn}
+          image={videosurImg}
           features={[
             {
               icon: <Video className="w-6 h-6 text-white" />,
