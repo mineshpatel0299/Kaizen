@@ -90,12 +90,13 @@ export default function Footer() {
 
           <h3 className="font-semibold mb-4">Contact Info</h3>
           <p className="text-bl text-sm">
-            Crystal Tower. <br />
+            2104, Citadel Tower,
+ <br />
             Business Bay. P.O. Box 413325 <br />
             Dubai, UAE
           </p>
           <p className="mt-2 text-white text-sm">
-            Phone: +97144293690 <br />
+            Phone: +971502626894 <br />
             Email: info@kaizenitsolutionsllc.com
           </p>
         </div>

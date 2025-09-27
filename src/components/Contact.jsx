@@ -151,9 +151,10 @@ const Contact = () => {
                     </h3>
                     <p className="text-gray-600">
                       <li>
-                        Crystal Tower. Business Bay. P.O. Box 413325
-                        <br />
-                        Dubai, UAE
+                       2104, Citadel Tower,
+                        Business Bay,
+                          <br />
+                        Dubai, UAE, P.O. Box 413325
                       </li>
                     </p>
                   </div>
@@ -179,7 +180,7 @@ const Contact = () => {
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">
                       Phone
                     </h3>
-                    <p className="text-gray-600">0506766895</p>
+                    <p className="text-gray-600">+971502626894</p>
                   </div>
                 </div>
 
